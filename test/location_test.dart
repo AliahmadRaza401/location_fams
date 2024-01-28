@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:location/location.dart';
+import 'package:location_fams/location_fams.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -12,7 +12,7 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   final mockLocation = MockLocation();
-  Location.instance = mockLocation;
+  Location.instance = mockLocation as Location;
   final location = Location();
 
   tearDown(resetMockitoState);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:location/location.dart';
+import 'package:location_fams/location_fams.dart';
 
 class PermissionStatusWidget extends StatefulWidget {
   const PermissionStatusWidget({super.key});

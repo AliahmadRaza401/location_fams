@@ -26,10 +26,10 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdk 33
-    namespace "com.fams.location.example"
+    namespace "com.fams.location_fams.example"
 
     defaultConfig {
-        applicationId "com.fams.location.example"
+        applicationId "com.fams.location_fams.example"
         minSdk 16
         targetSdk 33
         versionCode flutterVersionCode.toInteger()

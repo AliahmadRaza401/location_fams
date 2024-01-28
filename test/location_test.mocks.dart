@@ -5,7 +5,7 @@
 import 'dart:async' as _i4;
 import 'dart:ui' as _i5;
 
-import 'package:location/location.dart' as _i3;
+import 'package:location_fams/location_fams.dart';' as _i3;
 import 'package:location_platform_interface/location_platform_interface.dart'
     as _i2;
 import 'package:mockito/mockito.dart' as _i1;

@@ -1,4 +1,4 @@
-package com.fams.location;
+package com.fams.location_fams;
 
 import android.content.ComponentName;
 import android.content.Context;

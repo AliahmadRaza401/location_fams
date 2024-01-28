@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:location/location.dart';
+import 'package:location_fams/location_fams.dart';
 
 class ChangeSettings extends StatefulWidget {
   const ChangeSettings({super.key});

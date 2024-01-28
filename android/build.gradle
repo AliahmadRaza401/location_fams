@@ -1,4 +1,4 @@
-group "com.fams.location"
+group "com.fams.location_fams"
 version "1.0-SNAPSHOT"
 
 buildscript {
@@ -26,7 +26,7 @@ apply plugin: "kotlin-android"
 apply plugin: "org.jlleitschuh.gradle.ktlint"
 
 android {
-    namespace "com.fams.location"
+    namespace "com.fams.location_fams"
     compileSdk 33
 
     defaultConfig {

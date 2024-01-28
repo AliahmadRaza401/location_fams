@@ -67,13 +67,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
-  location:
+  location_fams:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "5.0.3"
+    version: "1.0.0"
   location_platform_interface:
     dependency: transitive
     description:

@@ -92,8 +92,7 @@ NSLocationAlwaysUsageDescription
 Then you just have to import the package with
 
 ```dart
-import 'package:location/location.dart';
-```
+import 'package:location_fams/location_fams.dart';```
 
 In order to request location, you should always check Location Service status and Permission status manually
 

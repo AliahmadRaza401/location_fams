@@ -1,4 +1,4 @@
-name: location
+name: location_fams
 description: Cross-platform plugin for easy access to device's location in real-time.
 version: 1.0.0
 homepage: https://github.com/AliahmadRaza401/location_fams
@@ -12,7 +12,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.fams.location
+        package: com.fams.location_fams
         pluginClass: LocationPlugin
       ios:
         pluginClass: LocationPlugin

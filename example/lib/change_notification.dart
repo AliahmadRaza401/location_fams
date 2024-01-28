@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:location/location.dart';
+import 'package:location_fams/location_fams.dart';
 
 class ChangeNotificationWidget extends StatefulWidget {
   const ChangeNotificationWidget({super.key});

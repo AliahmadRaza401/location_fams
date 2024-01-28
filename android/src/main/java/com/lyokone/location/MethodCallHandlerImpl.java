@@ -1,4 +1,4 @@
-package com.fams.location;
+package com.fams.location_fams;
 
 import android.graphics.Color;
 import android.os.Build;

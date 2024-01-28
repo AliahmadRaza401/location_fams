@@ -1,4 +1,4 @@
-package com.fams.location.example;
+package com.fams.location_fams.example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

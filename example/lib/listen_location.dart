@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:location/location.dart';
+import 'package:location_fams/location_fams.dart';
 
 class ListenLocationWidget extends StatefulWidget {
   const ListenLocationWidget({super.key});
