@@ -1,0 +1,35 @@
+name: location
+description: Cross-platform plugin for easy access to device's location in real-time.
+version: 1.0.0
+homepage: https://github.com/AliahmadRaza401/location_fams
+repository: https://github.com/AliahmadRaza401/location_fams
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.fams.location
+        pluginClass: LocationPlugin
+      ios:
+        pluginClass: LocationPlugin
+      macos:
+        pluginClass: LocationPlugin
+      web:
+        default_package: location_web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  location_platform_interface: ^3.1.1
+  location_web: ^4.1.1
+dev_dependencies:
+  async: ^2.5.0
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+  leancode_lint: ^3.0.0
+  mockito: ^5.0.0
